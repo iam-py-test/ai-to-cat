@@ -7,6 +7,7 @@ function replaceText(node) {
         text = text.replace(/\bAI\b/g, "cat");
         text = text.replace(/\bA\.I\./g, "cat");
         text = text.replace("artificial intelligence", "cat intelligence")
+        text = text.replace("large language model", "large language meow")
         
         if (text !== node.nodeValue) {
             node.nodeValue = text;
