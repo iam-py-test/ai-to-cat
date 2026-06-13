@@ -6,6 +6,7 @@ function replaceText(node) {
         // Replace "AI" and "A.I." with "cat" but not partial matches
         text = text.replace(/\bAI\b/g, "cat");
         text = text.replace(/\bA\.I\./g, "cat");
+        text = text.replace("artificial intelligence", "cat intelligence")
         
         if (text !== node.nodeValue) {
             node.nodeValue = text;
