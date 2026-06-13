@@ -1,13 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "AI to Butt",
+    "name": "AI to Cat",
     "version": "1.0",
-    "description": "Replaces instances of 'AI' and 'A.I.' with 'butt' while preserving case sensitivity",
-    
-    "icons": {
-      "48": "icons/butt-48.png",
-      "96": "icons/butt-96.png"
-    },
+    "description": "Replaces instances of 'AI' and 'A.I.' with 'cat' while preserving case sensitivity",
     
     "content_scripts": [
       {
