@@ -5,6 +5,13 @@
     "description": "Replaces instances of 'AI' and 'A.I.' with 'cat'. Also replaces 'large language model' and 'artificial intelligence'. Based on AI-to-Butt by Zach Bellay.",
     "author": "iam-py-test",
     "homepage_url": "https://github.com/iam-py-test/ai-to-cat",
+
+    "browser_specific_settings": {
+            "gecko": {
+                "id": "@ai-to-cat",
+                "strict_min_version": "42.0"
+            }
+    },
     
     "content_scripts": [
       {
